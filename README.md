@@ -1,4 +1,4 @@
-# Eyedropper-AppImage 🐧
+# Eyedropper-AppImage
 
 Test of Eyedropper Snapshot AppImage, not intended for daily-driving yet.
 
