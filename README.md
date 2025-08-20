@@ -6,7 +6,7 @@ When the known issue gets solved, repo will be transfered to pkgforge-dev repo &
 
 ## Known issue
 
-- global shortcut keyboard portal doesn't work
+- Global shortcut keyboard portal doesn't work (at least on Gnome 48, investigating...)
 
 ## Known quirks
 
