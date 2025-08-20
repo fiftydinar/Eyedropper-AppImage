@@ -20,7 +20,7 @@ export STARTUPWMCLASS=eyedropper # For Wayland, this is 'com.github.finefindus.e
 # DEPLOY ALL LIBS
 wget --retry-connrefused --tries=30 "$SHARUN" -O ./quick-sharun
 chmod +x ./quick-sharun
-./quick-sharun /usr/bin/eyedropper
+GSK_RENDERER=cairo ./quick-sharun /usr/bin/eyedropper
 
 ## Further debloat locale
 find ./AppDir/share/locale -type f ! -name '*glib*' ! -name '*eyedropper*' -delete
