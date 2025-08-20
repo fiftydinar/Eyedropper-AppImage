@@ -1,6 +1,6 @@
 # Eyedropper-AppImage
 
-Test of Eyedropper Snapshot AppImage, not intended for daily-driving yet.
+Test of Eyedropper AppImage, not intended for daily-driving yet.
 
 When the known issue gets solved, repo will be transfered to pkgforge-dev repo & it will be the part of AnyLinux-AppImages collection.
 
