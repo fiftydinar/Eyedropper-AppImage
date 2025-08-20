@@ -1,9 +1,9 @@
 # Eyedropper-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Gnome-Calculator-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Gnome-Calculator-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/Gnome-Calculator-AppImage/actions/workflows/blank.yml/badge.svg)](https://github.com/pkgforge-dev/Gnome-Calculator-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Eyedropper-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Eyedropper-AppImage/releases/latest)
+[![CI Build Status](https://github.com//pkgforge-dev/Eyedropper-AppImage/actions/workflows/blank.yml/badge.svg)](https://github.com/pkgforge-dev/Eyedropper-AppImage/releases/latest)
 
-* [Latest Stable Release](https://github.com/pkgforge-dev/Gnome-Calculator-AppImage/releases/latest)
+* [Latest Stable Release](https://github.com/pkgforge-dev/Eyedropper-AppImage/releases/latest)
 
 ---
 
