@@ -7,9 +7,9 @@ sed -i 's/DownloadUser/#DownloadUser/g' /etc/pacman.conf
 ARCH="$(uname -m)"
 
 if [ "$ARCH" = 'x86_64' ]; then
-	PKG_TYPE="x86_64.pkg.tar.zst"
+	PKG_TYPE="$ARCH.pkg.tar.zst"
 elif [ "$ARCH" = 'aarch64' ]; then
-	PKG_TYPE="aarch64.pkg.tar.xz"
+	PKG_TYPE="$ARCH.pkg.tar.xz"
 fi
 
 LIBXML_URL="https://github.com/pkgforge-dev/archlinux-pkgs-debloated/releases/download/continuous/libxml2-mini-$PKG_TYPE"
