@@ -48,7 +48,7 @@ else
     wget --retry-connrefused --tries=30 "$GTK4_ARM_URL"        -O  ./gtk4.pkg.tar.xz
 fi
 
-pacman -U --noconfirm ./*.pkg.tar.zst
+pacman -U --noconfirm ./*.pkg.tar.zst ./*.pkg.tar.xz
 rm -f ./*.pkg.tar.zst
 
 echo "All done!"
