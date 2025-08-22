@@ -48,8 +48,12 @@ else
     wget --retry-connrefused --tries=30 "$GTK4_ARM_URL"        -O  ./gtk4.pkg.tar.xz
 fi
 
-pacman -U --noconfirm ./*.pkg.tar.zst ./*.pkg.tar.xz
+pacman -U --noconfirm ./*.pkg.tar.zst
 rm -f ./*.pkg.tar.zst
+if [ "$ARCH" = 'aarch64' ]; then
+  pacman -U --noconfirm ./*.pkg.tar.xz
+  rm -f ./*.pkg.tar.zst
+fi
 
 echo "All done!"
 echo "---------------------------------------------------------------"
