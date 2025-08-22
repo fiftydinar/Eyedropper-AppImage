@@ -16,8 +16,8 @@ LIBXML_URL="https://github.com/pkgforge-dev/llvm-libs-debloated/releases/downloa
 OPUS_URL="https://github.com/pkgforge-dev/llvm-libs-debloated/releases/download/continuous/opus-nano-$PKG_TYPE"
 MESA_URL="https://github.com/pkgforge-dev/llvm-libs-debloated/releases/download/continuous/mesa-nano-$PKG_TYPE"
 INTEL_MEDIA_URL="https://github.com/pkgforge-dev/llvm-libs-debloated/releases/download/continuous/intel-media-mini-$PKG_TYPE" 
-GTK4_X86_URL="https://temp.sh/POsev/gtk4-mini-$PKG_TYPE"
-GTK4_ARM_URL="https://temp.sh/gXLXJ/gtk4-mini-$PKG_TYPE"
+GTK4_X86_URL="https://d.uguu.se/UuKlGNxW.zst"
+GTK4_ARM_URL="https://n.uguu.se/GKbGQMUN.xz"
 
 echo "Installing build dependencies for sharun & AppImage integration..."
 echo "---------------------------------------------------------------"
@@ -45,7 +45,7 @@ if [ "$ARCH" = 'x86_64' ]; then
 	wget --retry-connrefused --tries=30 "$INTEL_MEDIA_URL"  -O ./intel-media.pkg.tar.zst
     wget --retry-connrefused --tries=30 "$GTK4_X86_URL"        -O  ./gtk4.pkg.tar.zst
 else
-    wget --retry-connrefused --tries=30 "$GTK4_ARM_URL"        -O  ./gtk4.pkg.tar.zst
+    wget --retry-connrefused --tries=30 "$GTK4_ARM_URL"        -O  ./gtk4.pkg.tar.xz
 fi
 
 pacman -U --noconfirm ./*.pkg.tar.zst
