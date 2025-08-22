@@ -15,6 +15,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export OUTNAME="$PACKAGE"-"$VERSION"-anylinux-"$ARCH".AppImage
 export DESKTOP=/usr/share/applications/com.github.finefindus.eyedropper.desktop
 export ICON=/usr/share/icons/hicolor/scalable/apps/com.github.finefindus.eyedropper.svg
+export DEPLOY_OPENGL=1
 export STARTUPWMCLASS=eyedropper # For Wayland, this is 'com.github.finefindus.eyedropper', so this needs to be changed in desktop file manually by the user in that case until some potential automatic fix exists for this
 
 # DEPLOY ALL LIBS
@@ -27,9 +28,6 @@ find ./AppDir/share/locale -type f ! -name '*glib*' ! -name '*eyedropper*' -dele
 
 ## Set gsettings to save to keyfile, instead to dconf
 echo "GSETTINGS_BACKEND=keyfile" >> ./AppDir/.env
-
-## Force use of cairo backend
-echo "GSK_RENDERER=cairo" >> ./AppDir/.env
 
 ## Copy files needed for search integration
 mkdir -p ./AppDir/share/gnome-shell/search-providers/
