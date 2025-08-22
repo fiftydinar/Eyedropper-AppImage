@@ -8,7 +8,7 @@ ARCH="$(uname -m)"
 
 if [ "$ARCH" = 'x86_64' ]; then
 	PKG_TYPE="x86_64.pkg.tar.zst"
-else
+elif [ "$ARCH" = 'aarch64' ]; then
 	PKG_TYPE="aarch64.pkg.tar.xz"
 fi
 
