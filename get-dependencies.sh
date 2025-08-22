@@ -16,8 +16,8 @@ LIBXML_URL="https://github.com/pkgforge-dev/llvm-libs-debloated/releases/downloa
 OPUS_URL="https://github.com/pkgforge-dev/llvm-libs-debloated/releases/download/continuous/opus-nano-$PKG_TYPE"
 MESA_URL="https://github.com/pkgforge-dev/llvm-libs-debloated/releases/download/continuous/mesa-nano-$PKG_TYPE"
 INTEL_MEDIA_URL="https://github.com/pkgforge-dev/llvm-libs-debloated/releases/download/continuous/intel-media-mini-$PKG_TYPE" 
-GTK4_X86_URL="https://temp.sh/POsev/gtk4-mini-$PKG_TYPE.pkg.tar.zst"
-GTK4_ARM_URL="https://temp.sh/gXLXJ/gtk4-mini-$PKG_TYPE.pkg.tar.xz"
+GTK4_X86_URL="https://temp.sh/POsev/gtk4-mini-$PKG_TYPE"
+GTK4_ARM_URL="https://temp.sh/gXLXJ/gtk4-mini-$PKG_TYPE"
 
 echo "Installing build dependencies for sharun & AppImage integration..."
 echo "---------------------------------------------------------------"
